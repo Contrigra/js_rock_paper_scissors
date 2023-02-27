@@ -6,13 +6,33 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css" class="styles">
 </head>
 <body>
 
+<div class="results">
 
-<button class="rock">Rock 👊</button>
-<button class="paper">Paper ✋</button>
-<button class="scissors">Scissors ✌</button>
+  <div class="counters">
+    <div class="human-counter">
+      <h1>Human</h1>
+      <div class="player-victories">3</div>
+    </div>
+
+    <div class="computer-counter">
+      <h1>Computer</h1>
+      <div class="computer-victories">4</div>
+    </div>
+  </div>
+
+  <div class="winner-result rainbow">You won!</div>
+</div>
+
+<div class="button-container">
+  <button class="rock">Rock 👊</button>
+  <button class="paper">Paper ✋</button>
+  <button class="scissors">Scissors ✌</button>
+</div>
+
 </body>
 </html>
