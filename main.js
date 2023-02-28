@@ -77,7 +77,7 @@ function checkWinner() {
 }
 
 
-// TODO winner declaration: if player.winCounter == declareWinner(player)
+
 let buttons = document.querySelectorAll('button');
 
 buttons.forEach(e => e.addEventListener('click', playRound));
@@ -86,5 +86,3 @@ buttons.forEach(e => e.addEventListener('click', () => {
     (humanCounter < 5 && computerCounter < 5) ? updateDivCounter() : checkWinner()
 }));
 
-// buttons.forEach(e => e.addEventListener('click', updateDivCounter));
-// buttons.forEach(e => e.addEventListener('click', checkWinner));

@@ -50,6 +50,7 @@ button {
 .winner-result {
   font-size: 128px;
   font-weight: bolder;
+  flex: 0 0 400px;
 }
 
 .rainbow {
